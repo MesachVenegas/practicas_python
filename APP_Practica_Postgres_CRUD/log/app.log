@@ -1,0 +1,69 @@
+02:30:58|PM: INFO [MainProcess] looger_info.py [<module>]: Mensaje Info
+02:30:58|PM: WARNING [MainProcess] looger_info.py [<module>]: Mensaje Warming
+02:30:58|PM: ERROR [MainProcess] looger_info.py [<module>]: Mensaje error
+02:30:58|PM: CRITICAL [MainProcess] looger_info.py [<module>]: Error Critico
+02:36:12|PM: CRITICAL [MainProcess] connexion.py [mk_pool]: connection to server at "localhost" (::1), port 5432 failed: FATAL:  no existe la base de datos «DB_practica»
+02:48:46|PM: WARNING [MainProcess] connexion.py [pool_drop]: Pool Liberado
+02:48:46|PM: WARNING [MainProcess] connexion.py [pool_close]: {cls._pool} cerrado
+02:48:59|PM: WARNING [MainProcess] connexion.py [pool_drop]: Pool Liberado
+02:48:59|PM: WARNING [MainProcess] connexion.py [pool_close]: <psycopg2.pool.SimpleConnectionPool object at 0x000001DF3EA507C0> cerrado
+02:49:32|PM: WARNING [MainProcess] connexion.py [pool_drop]: <psycopg2.pool.SimpleConnectionPool object at 0x000001C0716607F0> Liberado
+02:49:32|PM: WARNING [MainProcess] connexion.py [pool_close]: <psycopg2.pool.SimpleConnectionPool object at 0x000001C0716607F0> cerrado
+06:20:46|PM: ERROR [MainProcess] ConnHandler.py [__exit__]: <class 'AttributeError'>:<traceback object at 0x000001EC4F21A140>
+06:20:46|PM: WARNING [MainProcess] ConnHandler.py [__exit__]: Se realizo un RollBack..
+06:21:56|PM: ERROR [MainProcess] ConnHandler.py [__exit__]: <class 'AttributeError'>:<traceback object at 0x0000014A75C6A140>
+06:21:56|PM: WARNING [MainProcess] ConnHandler.py [__exit__]: Se realizo un RollBack..
+06:23:08|PM: ERROR [MainProcess] ConnHandler.py [__exit__]: <class 'AttributeError'>:<class 'AttributeError'>
+06:23:08|PM: WARNING [MainProcess] ConnHandler.py [__exit__]: Se realizo un RollBack..
+06:23:21|PM: ERROR [MainProcess] ConnHandler.py [__exit__]: <class 'AttributeError'>:'psycopg2.extensions.cursor' object has no attribute 'fetchal'
+06:23:21|PM: WARNING [MainProcess] ConnHandler.py [__exit__]: Se realizo un RollBack..
+10:08:47|PM: ERROR [MainProcess] ConnHandler.py [__exit__]: <class 'TypeError'>:DAOAPP.encryp_pass() missing 1 required positional argument: 'password'
+10:08:47|PM: WARNING [MainProcess] ConnHandler.py [__exit__]: Se realizo un RollBack..
+10:09:55|PM: ERROR [MainProcess] ConnHandler.py [__exit__]: <class 'psycopg2.errors.SyntaxError'>:error de sintaxis en o cerca de «FROM»
+LINE 1: UPDATE FROM usuarios_db SET password = 'b0ce6c1ea07a61ac4da7...
+               ^
+
+10:09:55|PM: WARNING [MainProcess] ConnHandler.py [__exit__]: Se realizo un RollBack..
+10:14:32|PM: ERROR [MainProcess] ConnHandler.py [__exit__]: <class 'psycopg2.errors.SyntaxError'>:error de sintaxis en o cerca de «FROM»
+LINE 1: UPDATE FROM usuarios_db SET user_name= 'test', email= 'test@...
+               ^
+
+10:14:32|PM: WARNING [MainProcess] ConnHandler.py [__exit__]: Se realizo un RollBack..
+10:16:40|PM: ERROR [MainProcess] ConnHandler.py [__exit__]: <class 'psycopg2.errors.NotNullViolation'>:el valor nulo en la columna «email» de la relación «usuarios_db» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (1, root, null, 21232f297a57a5a743894a0e4a801fc3).
+
+10:16:40|PM: WARNING [MainProcess] ConnHandler.py [__exit__]: Se realizo un RollBack..
+01:32:06|PM: WARNING [MainProcess] looger_info.py [<module>]: Mensaje Warming
+01:32:06|PM: ERROR [MainProcess] looger_info.py [<module>]: Mensaje error
+01:32:06|PM: CRITICAL [MainProcess] looger_info.py [<module>]: Error Critico
+02:18:19|PM: INFO [MainProcess] connexion.py [mk_pool]: Conexion Exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000023575E47940>
+02:18:19|PM: INFO [MainProcess] connexion.py [pool_drop]: <psycopg2.pool.SimpleConnectionPool object at 0x0000023575E47940> Liberado
+02:18:19|PM: INFO [MainProcess] connexion.py [pool_close]: <psycopg2.pool.SimpleConnectionPool object at 0x0000023575E47940> cerrado
+02:36:37|PM: WARNING [MainProcess] main_app.py [opt_val]: valor de tipo:{type(ask)} invalido, ingresa calores numericos "int" 
+02:36:37|PM: WARNING [MainProcess] main_app.py [opt_val]: valor de tipo:{type(ask)} invalido, ingresa calores numericos "int" 
+02:37:20|PM: WARNING [MainProcess] main_app.py [opt_val]: valor de tipo:<class 'str'> invalido, ingresa calores numericos "int" 
+02:37:34|PM: WARNING [MainProcess] main_app.py [opt_val]: valor de tipo:<class 'str'> invalido, ingresa calores numericos "int" 
+02:38:45|PM: ERROR [MainProcess] main_app.py [main_menu]: <class 'Exception'>
+02:39:06|PM: ERROR [MainProcess] main_app.py [main_menu]: <class 'Exception'>
+02:40:11|PM: WARNING [MainProcess] main_app.py [opt_val]: valor de tipo:<class 'str'> invalido, ingresa calores numericos "int" 
+02:40:17|PM: ERROR [MainProcess] main_app.py [main_menu]: a no esta definido.
+02:40:45|PM: ERROR [MainProcess] main_app.py [main_menu]: <'a'> no esta definido.
+02:42:09|PM: WARNING [MainProcess] main_app.py [opt_val]: valor de tipo:<class 'str'> invalido, ingresa calores numericos "int" 
+02:42:17|PM: WARNING [MainProcess] main_app.py [opt_val]: valor de tipo:<class 'str'> invalido, ingresa valores numericos "int" 
+06:21:41|PM: WARNING [MainProcess] main_app.py [fmt_pass]: La contraseña debe ser de una longitud minima de 6 caracteres.
+06:25:19|PM: WARNING [MainProcess] main_app.py [fmt_pass]: La contraseña no debe incluir caracteres especiales ['/', '>', '<', '=', '\\', '&', '%', '#', '(', ')', ' '] ni espacios en blanco.
+06:25:30|PM: WARNING [MainProcess] main_app.py [fmt_pass]: La contraseña debe ser de una longitud minima de 6 caracteres.
+06:29:03|PM: WARNING [MainProcess] main_app.py [fmt_pass]: La contraseña debe ser de una longitud minima de 6 caracteres.
+06:29:08|PM: WARNING [MainProcess] main_app.py [fmt_pass]: La contraseña no debe incluir caracteres especiales ['/', '>', '<', '=', '\\', '&', '%', '#', '(', ')', ' '] ni espacios en blanco.
+09:02:25|PM: WARNING [MainProcess] main_app.py [<module>]: 7 no es una opcion valida elija una opcion entre 1 - 5
+10:17:20|PM: WARNING [MainProcess] main_app.py [opt_val]: valor de tipo:<class 'str'> invalido, ingresa valores numericos <class 'int'>
+10:38:09|PM: ERROR [MainProcess] ConnHandler.py [__exit__]: <class 'psycopg2.errors.UndefinedColumn'>:no existe la columna «username» en la relación «usuarios_db»
+LINE 1: UPDATE usuarios_db SET username = 'Hana Sakura' WHERE id_key...
+                               ^
+
+10:38:09|PM: WARNING [MainProcess] ConnHandler.py [__exit__]: Se realizo un RollBack..
+10:27:49|AM: ERROR [MainProcess] ConnHandler.py [__exit__]: <class 'psycopg2.errors.InvalidTextRepresentation'>:la sintaxis de entrada no es válida para tipo integer: «yomehana»
+LINE 1: ...'42c8e9ee1d3399cc323194b17a3badc1' WHERE id_key = 'yomehana'
+                                                             ^
+
+10:27:49|AM: WARNING [MainProcess] ConnHandler.py [__exit__]: Se realizo un RollBack..
